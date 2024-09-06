@@ -4,15 +4,14 @@ firstTask.style.paddingTop = '5vh';
 let lastTask = document.querySelector('div.last-task')
 lastTask.style.marginTop = '10vh'
 lastTask.style.marginLeft = '50vh'
+let h1 = document.querySelector("h1");
+h1.innerText = "Series";
 let liPrimary1 = document.querySelector('li.primary:nth-child(3)');
 liPrimary1.style.backgroundColor = 'teal';
 liPrimary1.style.width = 'max-content'
 let liPrimary2 = document.querySelector('li.primary:nth-child(6)');
 liPrimary2.style.backgroundColor = 'teal';
 liPrimary2.style.width = 'max-content'
-let h1 = document.querySelector("h1");
-h1.innerText = "Series";
-let liPrimary = document.querySelectorAll('li.primary');
 function addStudent(name) {
     let ul = document.querySelector('.ul-two');
     let li = document.createElement('li');
